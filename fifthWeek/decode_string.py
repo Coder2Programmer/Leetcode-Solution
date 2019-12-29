@@ -4,7 +4,7 @@ def decodeString(self, s: str) -> str:
     stack = []
     for c in s:
         if c.isdigit():
-            current_number = current_numbet * 10 + int(c)
+            current_number = current_number * 10 + int(c)
         elif c == '[':
             stack.append(current_string)
             stack.append(current_number)
