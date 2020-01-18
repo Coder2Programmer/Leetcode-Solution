@@ -14,7 +14,7 @@ class Solution:
                 high = i
 
         i = low
-        j = half - i 
+        j = half - i
         if i <= 0:
             left_max = nums2[j-1]
         elif j <= 0:
